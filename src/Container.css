@@ -1,0 +1,45 @@
+/* .grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    width: 200px;
+    margin: 20px auto;
+  }
+  
+  .box {
+    width: 60px;
+    height: 60px;
+    border: 1px solid black;
+    background-color: white;
+  }
+  
+  .green {
+    background-color: green;
+  }
+   */
+
+
+   .grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    width: 200px;
+    margin: 20px auto;
+  }
+  
+  .box {
+    width: 60px;
+    height: 60px;
+    border: 1px solid black;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+  }
+  
+  .box.clicked {
+    background-color: green;
+    color: white;
+  }
+  
